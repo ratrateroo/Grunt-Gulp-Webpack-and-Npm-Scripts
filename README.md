@@ -71,3 +71,18 @@ starts to slow down the bundling process a lot when the project grows.
 
 Ideally you want to use Webpack for what it was made for and use Npm script, Grunt and Gulp
 for anything that can be done outside of the bundling process.
+
+
+##Commands 
+
+1. Using npm scripts:
+    npm start
+
+2. Using gulp:
+    npx gulp start
+
+3. Using grunt:
+    npx grunt start
+
+##Credits to
+https://youtu.be/Mn6aj4kY-j8
