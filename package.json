@@ -1,0 +1,25 @@
+{
+  "name": "grunt-gulp-and-npm-script",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx nodemon server.js",
+    "prestart": "npm run build",
+    "build": "npx webpack",
+    "build:watch": "npx webpack --watch"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-nodemon": "^0.4.2",
+    "grunt-webpack": "^3.1.3",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
